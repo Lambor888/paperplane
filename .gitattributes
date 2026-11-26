@@ -4,3 +4,5 @@
 *.cs text eol=crlf
 *.ini text eol=crlf
 *.uproject text eol=crlf
+*.bat text eol=crlf
+*.py text eol=lf

@@ -1,8 +1,13 @@
-# Track only what is needed to rebuild the code: Source, Config, the .uproject.
+# Track only what is needed to rebuild the code: Source, Config, the .uproject,
+# editor Python startup scripts and the rebuild helper.
 # Everything else (generated, cached, binary content, IDE files) is ignored.
 /*
 !/.gitignore
 !/.gitattributes
 !/paperPlane.uproject
+!/Rebuild.bat
 !/Source/
 !/Config/
+!/Content/
+/Content/*
+!/Content/Python/
