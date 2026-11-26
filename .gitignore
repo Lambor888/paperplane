@@ -1,0 +1,8 @@
+# Track only what is needed to rebuild the code: Source, Config, the .uproject.
+# Everything else (generated, cached, binary content, IDE files) is ignored.
+/*
+!/.gitignore
+!/.gitattributes
+!/paperPlane.uproject
+!/Source/
+!/Config/
